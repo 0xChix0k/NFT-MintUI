@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/NFT-MintUI/static/css/main.c18da073.css",
-    "main.js": "/NFT-MintUI/static/js/main.2ada3229.js",
-    "static/js/64.e26afb51.chunk.js": "/NFT-MintUI/static/js/64.e26afb51.chunk.js",
-    "static/js/563.1a5eb2c6.chunk.js": "/NFT-MintUI/static/js/563.1a5eb2c6.chunk.js",
-    "static/js/942.671a4393.chunk.js": "/NFT-MintUI/static/js/942.671a4393.chunk.js",
-    "static/js/787.8f6ea692.chunk.js": "/NFT-MintUI/static/js/787.8f6ea692.chunk.js",
-    "static/js/419.4d197bbd.chunk.js": "/NFT-MintUI/static/js/419.4d197bbd.chunk.js",
-    "static/js/48.fcde7302.chunk.js": "/NFT-MintUI/static/js/48.fcde7302.chunk.js",
-    "index.html": "/NFT-MintUI/index.html",
-    "main.c18da073.css.map": "/NFT-MintUI/static/css/main.c18da073.css.map",
-    "main.2ada3229.js.map": "/NFT-MintUI/static/js/main.2ada3229.js.map",
-    "64.e26afb51.chunk.js.map": "/NFT-MintUI/static/js/64.e26afb51.chunk.js.map",
-    "787.8f6ea692.chunk.js.map": "/NFT-MintUI/static/js/787.8f6ea692.chunk.js.map",
-    "419.4d197bbd.chunk.js.map": "/NFT-MintUI/static/js/419.4d197bbd.chunk.js.map",
-    "48.fcde7302.chunk.js.map": "/NFT-MintUI/static/js/48.fcde7302.chunk.js.map"
+    "main.css": "./static/css/main.ec383bbe.css",
+    "main.js": "./static/js/main.6b32fa91.js",
+    "static/js/64.e26afb51.chunk.js": "./static/js/64.e26afb51.chunk.js",
+    "static/js/563.1a5eb2c6.chunk.js": "./static/js/563.1a5eb2c6.chunk.js",
+    "static/js/942.671a4393.chunk.js": "./static/js/942.671a4393.chunk.js",
+    "static/js/787.8f6ea692.chunk.js": "./static/js/787.8f6ea692.chunk.js",
+    "static/js/419.a00cf6b8.chunk.js": "./static/js/419.a00cf6b8.chunk.js",
+    "static/js/48.fcde7302.chunk.js": "./static/js/48.fcde7302.chunk.js",
+    "index.html": "./index.html",
+    "main.ec383bbe.css.map": "./static/css/main.ec383bbe.css.map",
+    "main.6b32fa91.js.map": "./static/js/main.6b32fa91.js.map",
+    "64.e26afb51.chunk.js.map": "./static/js/64.e26afb51.chunk.js.map",
+    "787.8f6ea692.chunk.js.map": "./static/js/787.8f6ea692.chunk.js.map",
+    "419.a00cf6b8.chunk.js.map": "./static/js/419.a00cf6b8.chunk.js.map",
+    "48.fcde7302.chunk.js.map": "./static/js/48.fcde7302.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c18da073.css",
-    "static/js/main.2ada3229.js"
+    "static/css/main.ec383bbe.css",
+    "static/js/main.6b32fa91.js"
   ]
 }
