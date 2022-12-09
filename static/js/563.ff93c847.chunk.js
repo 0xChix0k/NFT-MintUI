@@ -1,1 +1,0 @@
-(self.webpackChunknft_mint_card=self.webpackChunknft_mint_card||[]).push([[563],{6563:function(){}}]);
