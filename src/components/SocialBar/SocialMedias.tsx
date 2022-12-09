@@ -19,7 +19,7 @@ const SocialMedias: React.FC<Props> = ({ connectAddr }) => {
     if (socail.url) {
       return (
         <a key={socail.name} id={socail.name} href={socail.url} target="_blank" rel="noreferrer" className='item'>
-          <Image alt={socail.name} src={`/socials/${socail.name}_Icon.svg`} className="img" />
+          <Image alt={socail.name} src={`./socials/${socail.name}_Icon.svg`} className="img" />
         </a>
       )
     }

@@ -66,7 +66,7 @@ const Content = styled.div`
 const App = () => {
   document.title = NftInfo.nftName;
   return (
-    <div style={{backgroundImage:`url(/background/${NftInfo.background})`}}>
+    <div style={{backgroundImage:`url(./background/${NftInfo.background})`}}>
         <Content >
           <SubHeah>
             <Web3Madal />
