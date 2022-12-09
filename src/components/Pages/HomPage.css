@@ -141,22 +141,28 @@
 
 
 @media screen and (max-width: 450px) {
+  .header-text{
+    display: flex;
+    justify-content: space-between;
+  }
   #info-main {
     --webkit-box-orient: vertical;
     --webkit-box-direction: normal;
     -ms-flex-direction: row;
     flex-direction: row;
     flex-wrap: wrap;
-    margin: 12px;
+    margin: 8px;
   }
   #info-img{
     margin: auto;
   }
-
-#main-text {
-    text-align: start;
-    margin-top: 10px;
-    margin-left: 0px;
-    width: 100%;
+  #info-main #main-text{
+    margin: auto;
   }
+  #main-text p:not(:nth-child(2)){
+    display: none;
+  }
+  #info-control{
+    margin-bottom: 15px;
+  }  
 }

@@ -13,10 +13,10 @@ const NftInfo = {
       url: '',
     }
   ],
-  //put in "public/bg/
+  //put in "public/background/
   background: 'background2.jpg',
   //put in "public/"
-  //jpg/png/gif
+  //jpg|png|gif
   nftPreview: 'preview.gif',
   nftContract: '0x6C804dA2aF8C353b6cd3a2Add8045BBD163CC026',
   nftAbi: ABI,

@@ -4,9 +4,9 @@ import NftInfo from '../../mySetting'
 import React, { useState } from 'react'
 import SocialMedias from '../SocialBar/SocialMedias'
 import Purchase from '../Button/Purchase'
-import { useAccount, useContractWrite, useWaitForTransaction } from 'wagmi'
+import { useAccount, useWaitForTransaction } from 'wagmi'
 import useReadContract from '../../hooks/useReadContract'
-import usePreparWrite from '../../hooks/usePreparWrite'
+import useWriteContract from '../../hooks/useWriteContract'
 import { useWeb3Modal } from '@web3modal/react'
 
 interface HeadProps {
@@ -97,14 +97,13 @@ const HomPage = () => {
       setCount(count - 1);
     }
   }
-  const config = usePreparWrite({
+  const useWrite:any = useWriteContract({
     address: NftInfo.nftContract,
     abi: NftInfo.nftAbi,
     functionName: 'pubMint',
     args: [count],
     totalPrice: String(totalPrice)
   })
-  const useWrite: any = useContractWrite(config)
   const { open } = useWeb3Modal()
   const handleMint = () => {
     !isConnected ? open() : useWrite.write();

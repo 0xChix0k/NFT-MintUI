@@ -1,4 +1,4 @@
-import {  usePrepareContractWrite } from "wagmi";
+import {  usePrepareContractWrite ,useContractWrite} from "wagmi";
 import { ethers } from "ethers";
 
 type Props = {
@@ -9,7 +9,7 @@ type Props = {
   totalPrice: string;
 }
 
-const usePreparWrite = ({ address, abi, functionName,args,totalPrice }:Props) => { 
+const useWriteContract = ({ address, abi, functionName,args,totalPrice }:Props) => { 
   const { config } = usePrepareContractWrite({
     address: address,
     abi: abi,
@@ -22,7 +22,9 @@ const usePreparWrite = ({ address, abi, functionName,args,totalPrice }:Props) =>
       value: ethers.utils.parseEther(totalPrice)
     }
   })
-  return config
+  const useWrite = useContractWrite(config);
+  return useWrite
 }
 
-export default usePreparWrite;
+
+export default useWriteContract;

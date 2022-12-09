@@ -1,6 +1,6 @@
 {
   "name": "nft-mintui",
-  "homepage": "https://Evileye0666.github.io/NFT-MintUI",
+  "homepage": "./",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -22,9 +22,9 @@
     "wagmi": "^0.8.9",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
+  "scripts": {    
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",    
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
