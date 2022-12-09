@@ -1,6 +1,8 @@
 import styled from 'styled-components';
 // import HomPage from './components/Pages/HomPage';
 import Web3Madal from './components/Web3Modal/Web3Madal';
+import NftInfo from './mySetting';
+
 
 const SubHeah = styled.div`
   font-family: "Lexend Deca", sans-serif;
@@ -59,20 +61,18 @@ const Content = styled.div`
   --ms-flex-align: center;
   align-items: center;  
 `
-const Bg = styled.div`
-  background-image:url('background2.jpg');
-`
+
 
 const App = () => {
-
+  document.title = NftInfo.nftName;
   return (
-    <Bg>
+    <div style={{backgroundImage:`url(/background/${NftInfo.background})`}}>
         <Content >
           <SubHeah>
             <Web3Madal />
           </SubHeah>
         </Content>
-    </Bg>
+    </div>
   )
 }
 export default App;
