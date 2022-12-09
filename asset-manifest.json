@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/NFT-MintUI/static/css/main.c18da073.css",
-    "main.js": "/NFT-MintUI/static/js/main.0c8c35d9.js",
+    "main.js": "/NFT-MintUI/static/js/main.2ada3229.js",
     "static/js/64.e26afb51.chunk.js": "/NFT-MintUI/static/js/64.e26afb51.chunk.js",
     "static/js/563.1a5eb2c6.chunk.js": "/NFT-MintUI/static/js/563.1a5eb2c6.chunk.js",
     "static/js/942.671a4393.chunk.js": "/NFT-MintUI/static/js/942.671a4393.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/48.fcde7302.chunk.js": "/NFT-MintUI/static/js/48.fcde7302.chunk.js",
     "index.html": "/NFT-MintUI/index.html",
     "main.c18da073.css.map": "/NFT-MintUI/static/css/main.c18da073.css.map",
-    "main.0c8c35d9.js.map": "/NFT-MintUI/static/js/main.0c8c35d9.js.map",
+    "main.2ada3229.js.map": "/NFT-MintUI/static/js/main.2ada3229.js.map",
     "64.e26afb51.chunk.js.map": "/NFT-MintUI/static/js/64.e26afb51.chunk.js.map",
     "787.8f6ea692.chunk.js.map": "/NFT-MintUI/static/js/787.8f6ea692.chunk.js.map",
     "419.4d197bbd.chunk.js.map": "/NFT-MintUI/static/js/419.4d197bbd.chunk.js.map",
@@ -18,6 +18,6 @@
   },
   "entrypoints": [
     "static/css/main.c18da073.css",
-    "static/js/main.0c8c35d9.js"
+    "static/js/main.2ada3229.js"
   ]
 }
