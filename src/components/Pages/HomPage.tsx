@@ -1,13 +1,16 @@
 import './HomPage.css'
 import Image from '../../hooks/useImage'
 import NftInfo from '../../mySetting'
-import React, { useState } from 'react'
+import React from 'react'
 import SocialMedias from '../SocialBar/SocialMedias'
 import Purchase from '../Button/Purchase'
 import { useAccount, useWaitForTransaction } from 'wagmi'
 import useReadContract from '../../hooks/useReadContract'
 import useWriteContract from '../../hooks/useWriteContract'
 import { useWeb3Modal } from '@web3modal/react'
+import { RootState } from '../../Store/store'
+import { useSelector, useDispatch } from 'react-redux'
+import { increment,decrement } from '../../Store/counterSlice'
 
 interface HeadProps {
   total: string;
@@ -79,7 +82,9 @@ const InfoTotalPrice: React.FC<TotalProps> = ({ totalPrice }) => {
 }
 
 const HomPage = () => {
-  const [count, setCount] = useState(1);
+  const count = useSelector((state: RootState) => state.counter.value);
+  const dispatch = useDispatch();
+  // const [count, setCount] = useState(1);
   const { address, isConnected } = useAccount()
   const getContractData: any = useReadContract({
     address: String(NftInfo.nftContract),
@@ -89,12 +94,12 @@ const HomPage = () => {
   const totalPrice = parseFloat(String(count * NftInfo.nftPrice));
   const handleAddCount = (count: number) => {
     if (count < NftInfo.maxMint) {
-      setCount(count + 1);
+      dispatch(increment());
     }
   }
   const handleRemCount = (count: number) => {
     if (count > 1) {
-      setCount(count - 1);
+      dispatch(decrement());
     }
   }
   const useWrite:any = useWriteContract({
